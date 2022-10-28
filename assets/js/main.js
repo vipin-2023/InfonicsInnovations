@@ -1,6 +1,6 @@
 /**
-* Template Name: Vesperr - v4.9.1
-* Template URL: https://bootstrapmade.com/vesperr-free-bootstrap-template/
+* Template Name: Infonics Innovations - v4.9.1
+* Template URL: https://bootstrapmade.com/Infonics Innovations-free-bootstrap-template/
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
