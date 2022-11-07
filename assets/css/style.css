@@ -11,6 +11,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
+  background-color: rgb(232 246 255);
 }
 
 a {
@@ -517,7 +518,8 @@ section {
 
 .clients img {
   width: 50%;
-  filter: grayscale(100);
+  filter: none;
+  transform: scale(1.1);
   transition: all 0.4s ease-in-out;
   display: inline-block;
   padding: 10px 0;
@@ -1626,4 +1628,109 @@ form {
 
 #footer .footer-links a:hover {
   color: #3498db;
+}
+
+
+
+.container--card{
+  display:inline-flex;
+  justify-content:space-around;
+  flex-wrap: wrap;
+  position: relative;
+}
+/* card */
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ width: 46%;
+  margin: 10px 5px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 2px solid var(--borderColor);
+  background-color: var(--bgCard);
+}
+
+.card__title {
+  padding: 5px 0;
+  text-align: center;
+}
+
+.card__body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card__footer {
+  width: 80%;
+}
+.card__img {
+
+  display: block;
+  width:auto;
+  max-height: 200px;
+}
+
+.card__description {
+  padding: 5px;
+}
+
+/* modifiers (two options) */
+/* option 1 */
+.card--textBold {
+  font-size: 13px;
+  font-weight: bold;
+}
+/* option 2*/
+.card__description--textJustify {
+  text-align: justify;
+}
+
+.btn{
+  display: block;
+  margin: 5px 0;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 1s ease all;
+}
+
+.btn:hover{
+  cursor: pointer;
+}
+
+.btn--successColor{
+    background-color: var(--successColor);
+}
+
+.btn--infoColor{
+  background-color: var(--infoColor);
+}
+
+
+/* footer */
+.footer {
+width: 100%;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 5%;
+  background-color: var(--bgComponent);
+}
+
+.footer__text{
+  text-align:center;
+}
+.footer__text--size{
+  font-size: 22px;
+}
+:root {
+  --bgGeneral: #b8cbfc;
+  --bgComponent: #9bb8e8;
+  --bgCard: #ffffff;
+  --borderColor: rgb(254, 254, 255);
+  --successColor: #85d25c;
+  --infoColor: #5fb2f7;
 }
