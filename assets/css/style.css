@@ -1384,7 +1384,7 @@ section {
 --------------------------------------------------------------*/
 .contact .contact-about h3 {
   font-size: 28px;
-  margin: 0 0 10px 0;
+  margin: 50px 50px 10px 0;
   padding: 0;
   line-height: 1;
   font-weight: 700;
@@ -1686,7 +1686,11 @@ form {
 .card__description--textJustify {
   text-align: justify;
 }
-
+.containerq{
+  width: 100%;
+  background: #ffffff;
+  padding: 15px;
+}
 .btn{
   display: block;
   margin: 5px 0;
