@@ -11,7 +11,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
-  background-color: rgb(232 246 255);
+  background-color: rgb(255, 255, 255);
 }
 
 a {
@@ -23,6 +23,7 @@ a:hover {
   color: #5faee3;
   text-decoration: none;
 }
+
 
 h1,
 h2,
@@ -1644,17 +1645,23 @@ form {
   display: flex;
   flex-direction: column;
   align-items: center;
- width: 46%;
-  margin: 10px 5px;
-  padding: 5px;
+ width: 70%;
+  margin: 10px 0px;
+  justify-content: center;
+  align-items: center;
+  padding:15px 0px;
+
   border-radius: 5px;
   border: 2px solid var(--borderColor);
   background-color: var(--bgCard);
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
 }
 
 .card__title {
   padding: 5px 0;
   text-align: center;
+  font-weight: 500;
+ 
 }
 
 .card__body {
@@ -1688,9 +1695,14 @@ form {
 }
 .containerq{
   width: 100%;
-  background: #ffffff;
-  padding: 15px;
+  background: #f2faff;
+  padding: 25px;
 }
+.contact-us{
+  width: 100%;
+  padding: 0 30px;
+}
+
 .btn{
   display: block;
   margin: 5px 0;
