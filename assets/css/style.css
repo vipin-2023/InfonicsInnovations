@@ -15,7 +15,7 @@ body {
 }
 
 a {
-  color: #3498db;
+  color: #000000;
   text-decoration: none;
 }
 
@@ -1402,6 +1402,10 @@ section {
 
 .contact .social-links {
   padding-bottom: 20px;
+  margin: auto;
+}
+.icon{
+  margin: 0 10px;
 }
 
 .contact .social-links a {
@@ -1488,6 +1492,12 @@ form {
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
 }
+.footer-header{
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: #000000;
+
+}
 
 .contact .php-email-form .form-group {
   margin-bottom: 20px;
@@ -1507,10 +1517,10 @@ form {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #3498db;
+  background: #49adc1;
   border: 0;
   padding: 10px 24px;
-  color: #fff;
+  color: rgb(0, 0, 0);
   transition: 0.4s;
   border-radius: 50px;
 }
@@ -1701,7 +1711,8 @@ form {
 }
 .contact-us{
   width: 100%;
-  padding: 0 30px;
+ margin: auto;
+  max-width: 1000px;
 }
 
 .btn{
@@ -1717,10 +1728,14 @@ form {
 
 .btn:hover{
   cursor: pointer;
+  background-color: var(--hoverColor);
+  border: solid rgb(14, 14, 17) 1px;
+
 }
 
 .btn--successColor{
     background-color: var(--successColor);
+    border: solid rgb(255, 255, 255) 1px;
 }
 
 .btn--infoColor{
@@ -1748,6 +1763,7 @@ width: 100%;
   --bgComponent: #9bb8e8;
   --bgCard: #ffffff;
   --borderColor: rgb(254, 254, 255);
-  --successColor: #85d25c;
+  --successColor: #49adc1;
   --infoColor: #5fb2f7;
+  --hoverColor: #ffffff;
 }
