@@ -1730,6 +1730,7 @@ form {
   font-size: 18px;
   font-weight: bold;
   transition: 1s ease all;
+  width: 100%;
 }
 
 .btn:hover{
